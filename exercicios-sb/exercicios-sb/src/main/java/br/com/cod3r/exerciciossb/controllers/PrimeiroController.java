@@ -10,6 +10,6 @@ public class PrimeiroController {
 	//Metodo get usado na requisicao do browser
 	@GetMapping(path = {"/ola", "/saudacao"})
 	public String ola() {
-		return "Olá Spring Boot! 😏"; 
+		return "Olá Spring Boot! "; 
 	}
 }
